@@ -74,10 +74,3 @@ def get_car_list(filename):
                 continue
             line = f.readline()
     return car_list
-
-
-m1 = Car('car', 'NissanxTtrail', 'f1.jpeg', 2.5, 4)
-m2 = Truck('truck', 'Man', 'f2.jpeg', 20, '8x3x2.5')
-m3 = Specmachine('spec_machine', 'Hitachi', 'f4.jpeg', 1.2, 'Легкая техникадля уборки снега')
-
-
