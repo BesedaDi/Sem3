@@ -11,5 +11,4 @@ class Packal_list:
     def __str__(self):
         return self.spisok
 
-a = Packal_list([1, 2, 3])
-print(a[1])
+
